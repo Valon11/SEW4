@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="215.0" prefWidth="445.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FileConverterController">
+   <children>
+      <Label fx:id="fileConverterLabel" layoutX="141.0" layoutY="35.0" text="File Converter">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="chooseFileButton" layoutX="43.0" layoutY="86.0" mnemonicParsing="false" onAction="#chooseFile" text="choose File" />
+      <Button fx:id="convertButton" layoutX="195.0" layoutY="163.0" mnemonicParsing="false" onAction="#convertFile" text="convert" />
+      <Button fx:id="saveFileButton" layoutX="43.0" layoutY="120.0" mnemonicParsing="false" onAction="#saveFile" prefHeight="26.0" prefWidth="75.0" text="save File" />
+      <TextField fx:id="chooseFileTF" disable="true" layoutX="149.0" layoutY="86.0" prefHeight="26.0" prefWidth="240.0" />
+      <TextField fx:id="saveFileTF" disable="true" layoutX="149.0" layoutY="120.0" prefHeight="26.0" prefWidth="240.0" />
+   </children>
+</AnchorPane>
